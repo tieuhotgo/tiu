@@ -1,0 +1,111 @@
+#header {
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
+  background-image: url(/Class/Media/bannerit.jpg);
+  height: 73rem;
+  width: auto;
+  background-size: cover;
+}
+.nav-menu {
+  margin: 1rem 1rem;
+}
+.nav-link {
+  margin: 0 1rem;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #e87b77;
+}
+
+.nav-link:hover {
+  color: #9a8a7e;
+  text-decoration: underline;
+}
+.link-fake {
+  margin: 0 1rem;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #b6201b;
+}
+.link-fake:hover {
+  color: #26c1c9;
+}
+.body-container {
+  margin: auto 7rem;
+}
+#article1 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #e87b77;
+  text-align: center;
+}
+.article2 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.section2 {
+  display: grid;
+  grid-template-columns: 988px 300px 300px;
+  margin: auto 1rem;
+  padding: 10px;
+}
+#article3 {
+  background-size: cover;
+  height: 600px;
+  width: 988px;
+}
+.a1 {
+  background-image: url(/Class/Media/gianhang1.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+.a2 {
+  background-image: url(/Class/Media/gianhang3.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+.a3 {
+  background-image: url(/Class/Media/gianhang2.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+.a4 {
+  background-image: url(/Class/Media/gianhang4.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+#article4,
+#article5 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+}
+.chan {
+  margin: 1rem auto;
+}
+.ct {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5addb6;
+  text-align: start;
+  margin: -10rem auto;
+}
+.ct2 {
+  text-align: end;
+}
+.nav-back {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #e62d27;
+}
+.nav-back:hover {
+  color: #cb9f7e;
+}

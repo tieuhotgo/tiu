@@ -1,0 +1,116 @@
+#header {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+.nav-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.nav-link {
+  font-size: 35px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+}
+
+.nav-link:hover {
+  color: #9a8a7e;
+  text-decoration: underline;
+}
+
+.c1 {
+  text-align: center;
+  margin: 3rem 0;
+}
+.c2 {
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+}
+.food {
+  text-align: center;
+  margin: 3rem 1rem;
+}
+.section1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.pre1 {
+  color: #239473;
+  font-size: 85px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 1rem;
+}
+.pre2 {
+  color: #239473;
+  font-size: 85px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 1rem;
+}
+.text {
+  color: black;
+  font-size: 45px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.section2 {
+  display: grid;
+  grid-template-columns: 3fr 1fr 2fr 1fr;
+}
+.article2 {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr;
+}
+.link-fake {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.link-fake-1 {
+  border-radius: 0.5cm;
+  background-color: #f1ab23;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 1rem 4rem;
+  border: hidden;
+}
+.link-fake-2 {
+  border-radius: 0.5cm;
+  background-color: #f4d547;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 1rem 4rem;
+  border: hidden;
+}
+.let {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 1rem 0;
+}
+.mail {
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+}
+.chan {
+  margin: 1rem auto;
+}
+.ct {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5addb6;
+  text-align: start;
+  margin: -10rem auto;
+}
+.ct2 {
+  text-align: end;
+}
+.nav-back {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #e62d27;
+}
+.nav-back:hover {
+  color: #cb9f7e;
+}

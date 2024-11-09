@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form đăng ký</title>
+    <link rel="stylesheet" href="/btvn1/form/style.css" />
+  </head>
+  <body
+    style="background-image: url(/img/background.jpg); background-size: cover"
+  >
+    <header>
+      <h1 class="header-text">Đăng ký thành viên</h1>
+      <h1
+        style="
+          text-align: center;
+          font-size: 40px;
+          color: #0b1d4f;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        "
+      >
+        Giáo hội Elysia
+      </h1>
+    </header>
+    <div class="body-container">
+      <section class="article">
+        <form action="/btvn1/form/actionpage.html" autocomplete="on">
+          <div class="a1">
+            <div class="img">
+              <img src="/btvn1/form/elysia.png" alt="elysia" />
+            </div>
+            <div class="info">
+              <table>
+                <tr>
+                  <td>
+                    <label for="hoten">Họ tên:(*)</label>
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="hoten"
+                      name="hoten"
+                      placeholder="Nguyễn Văn A"
+                      required
+                      style="
+                        font-size: 16px;
+                        text-align: justify;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: blueviolet;
+                      "
+                    /><br />
+                    <br />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="tdn">Tên đăng nhập:(*)</label>
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="tdn"
+                      name="tdn"
+                      placeholder="tieucute123"
+                      required
+                      style="
+                        font-size: 16px;
+                        text-align: justify;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: blueviolet;
+                      "
+                    />
+                    <br />
+                    <br />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="mk">Mật khẩu:(*)</label>
+                  </td>
+                  <td>
+                    <input
+                      type="password"
+                      id="mk"
+                      name="mk"
+                      placeholder="********"
+                      required
+                      style="
+                        font-size: 16px;
+                        text-align: justify;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: blueviolet;
+                      "
+                    />
+                    <br />
+                    <br />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="xnmk">Xác nhận mật khẩu:(*)</label>
+                  </td>
+                  <td>
+                    <input
+                      type="password"
+                      id="xnmk"
+                      name="xnmk"
+                      placeholder="********"
+                      required
+                      style="
+                        font-size: 16px;
+                        text-align: justify;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: blueviolet;
+                      "
+                    />
+                    <br /><br />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="gioitinh" id="gioitinh">Giới tính:</label>
+                  </td>
+                  <td>
+                    <input type="radio" id="male" name="gioitinh" />
+                    <label for="male">Nam</label>
+                    <input type="radio" id="female" name="gioitinh" />
+                    <label for="female">Nữ</label>
+                    <input type="radio" id="other" name="gioitinh" />
+                    <label for="other">Khác</label>
+                    <br /><br />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="birth">Ngày sinh:</label>
+                  </td>
+                  <td>
+                    <input
+                      type="date"
+                      id="birth"
+                      name="birth"
+                      style="
+                        font-size: 16px;
+                        text-align: justify;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: blueviolet;
+                      "
+                    />
+                    <br /><br />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="email">Email:</label>
+                  </td>
+                  <td>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="tieucute@gmail.com"
+                      style="
+                        font-size: 16px;
+                        text-align: justify;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: blueviolet;
+                      "
+                    />
+                    <br /><br />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="ttp">Tỉnh/Thành phố:</label>
+                  </td>
+                  <td>
+                    <select
+                      name="ttp"
+                      id="ttp"
+                      style="
+                        font-size: 16px;
+                        text-align: justify;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: blueviolet;
+                      "
+                    >
+                      <option value="hanoi">Hà Nội</option>
+                      <option value="thanhhoa">Thanh Hóa</option>
+                      <option value="nghean">Nghệ An</option>
+                      <option value="hue">Thừa Thiên Huế</option>
+                      <option value="danang">Đà Nẵng</option>
+                      <option value="tphcm">Thành phố Hồ Chí Minh</option>
+                    </select>
+                    <br /><br />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="htx">Huyện/Thị Xã:</label>
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="htx"
+                      name="htx"
+                      placeholder="Thị xã Hương Trà"
+                      style="
+                        font-size: 16px;
+                        text-align: justify;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: blueviolet;
+                      "
+                    />
+                    <br /><br />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="px">Phường/Xã</label>
+                  </td>
+                  <td>
+                    <input
+                      type="text"
+                      id="px"
+                      name="px"
+                      placeholder="Phường Hương Vân"
+                      style="
+                        font-size: 16px;
+                        text-align: justify;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: blueviolet;
+                      "
+                    />
+                    <br /><br />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox" id="yn" name="yn" value="dongy" />
+                    <label for="yn"
+                      >Tôi đồng ý với các điều khoản và điều kiện</label
+                    >
+                    <br /><br />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="/btvn1/form/dk.html" target="_blank" class="dkdk"
+                      >Điều khoản và điều kiện</a
+                    >
+                    <br /><br />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="submit" value="Đăng ký" class="sm" />
+                    <input type="reset" value="Làm lại" class="sm" />
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </form>
+      </section>
+    </div>
+    <footer>
+      <a href="/home.html" class="nav-back">Trở về trang chủ</a>
+    </footer>
+  </body>
+</html>

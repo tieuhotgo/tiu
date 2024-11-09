@@ -1,0 +1,158 @@
+* {
+  position: relative;
+}
+
+#header {
+  display: grid;
+  grid-template-columns: 1fr 3.1fr;
+
+  height: 25rem;
+  width: auto;
+}
+.avatar {
+  text-align: center;
+}
+.name {
+  margin: 0 8rem;
+}
+.name1 {
+  font-size: 50px;
+  color: #019cdf;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.name2 {
+  font-size: 30px;
+  color: #323f6c;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: -2rem auto;
+}
+.info {
+  background-color: #089cdc;
+}
+.text-info {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto 2rem;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+#body-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  width: auto;
+}
+.skill {
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr 3fr;
+}
+.name3 {
+  color: #019cdf;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2rem 1rem;
+}
+.underl {
+  color: #019cdf;
+  font-weight: bold;
+  font-size: 40px;
+  margin: -4.5rem 1rem;
+}
+.name4 {
+  color: #019cdf;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: -1rem 2rem;
+}
+.name5 {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  color: #019cdf;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: -1rem 1rem;
+}
+.name6 {
+  color: #019cdf;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+}
+.name7 {
+  color: #019cdf;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2rem 1rem;
+}
+.nav-link {
+  color: #019cdf;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: red;
+}
+.history {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.text1 {
+  font-weight: bold;
+}
+
+.chan {
+  margin: 1rem auto;
+}
+.ct {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5addb6;
+  text-align: start;
+  margin: -10rem auto;
+}
+
+.blog {
+  text-align: center;
+  color: #3c59aa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: unset;
+}
+.article-text {
+  font-size: 20px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkorange;
+}
+.des {
+  font-size: 20px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkorange;
+}
+.background {
+  position: relative;
+}
+
+.background:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  background-image: url("/img/background.jpg");
+  background-repeat: repeat;
+  background-position: 50% 0;
+  background-size: contain;
+}

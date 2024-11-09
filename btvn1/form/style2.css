@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.a1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.header-text {
+  font-size: 50px;
+  text-align: center;
+  color: #c77fdd;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: unset;
+}
+.info {
+  font-size: 16px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(211, 49, 130);
+}
+.button {
+  margin: 0 1rem;
+  font-size: 22px;
+  font-family: cursive;
+  text-decoration: none;
+  color: grey;
+}
+.dkdk {
+  font-size: 16px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blueviolet;
+  text-decoration: none;
+}
+.dkdk:hover {
+  color: blue;
+}
+.sm {
+  text-align: right;
+  margin: 0 1rem;
+  font-size: 22px;
+  font-family: cursive;
+  text-decoration: none;
+  color: grey;
+}
+.sm:hover {
+  color: red;
+}
+.nav-back {
+  text-align: right;
+  margin: 0 1rem;
+  font-size: 22px;
+  font-family: cursive;
+  text-decoration: none;
+  color: grey;
+}
+.nav-back:hover {
+  color: red;
+}
