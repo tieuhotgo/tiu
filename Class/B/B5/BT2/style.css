@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+#box1, #box2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+}
+#box2 {
+    background-color: blue;
+    padding: 20px;
+    position: relative;
+    left: 0;
+    top: -80px;
+}

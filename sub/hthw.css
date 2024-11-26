@@ -54,7 +54,7 @@
   grid-template-rows: 1fr 1fr;
 }
 .chamhoi {
-  margin: -15rem 2rem;
+  margin: 8rem 2rem;
 }
 .name3 {
   color: #019cdf;
@@ -73,7 +73,7 @@
   color: #019cdf;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 2rem 2rem;
+  margin: -5rem 2rem;
 }
 
 .name6 {
@@ -93,7 +93,7 @@
   color: #019cdf;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-
+  
   text-decoration: none;
 }
 

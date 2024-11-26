@@ -1,0 +1,42 @@
+.c1 {
+    background-color: red;
+    width: 100%;
+    height: 5rem;
+}
+.c2 {
+    background-color: aqua;
+    width: 100%;
+    height: 12rem;
+}
+.c3 {
+    background-image: url(/Class/Media/pattern-1.jpg);
+    width: 100%;
+    height: 20rem;
+}
+.c4 {
+    background-color: greenyellow;
+    width: 100%;
+    height: 11rem;
+}
+.c5 {
+    background-color: green;
+    width: 100%;
+    height: 6rem;
+}
+#c6 {
+    background-image: url(/Class/Media/avatar.jpg);
+    opacity: 0.5;
+    position: fixed;
+    left: 500px;
+    top: 10px;
+    z-index: 1;
+    width: 50%;
+    height: 54rem;
+}
+.bt {
+    position: fixed;
+    
+    left: 1410px;
+    top: 10px;
+    z-index: 1;
+}

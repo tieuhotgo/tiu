@@ -49,6 +49,13 @@
   display: grid;
   grid-template-rows: 1fr 3fr 1fr 3fr;
 }
+#history2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.chamhoi {
+  margin: 8rem 2rem;
+}
 .name3 {
   color: #019cdf;
   font-size: 30px;
@@ -66,16 +73,9 @@
   color: #019cdf;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  margin: -1rem 2rem;
+  margin: -5rem 2rem;
 }
-.name5 {
-  display: grid;
-  grid-template-columns: 1fr 8fr;
-  color: #019cdf;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: -1rem 1rem;
-}
+
 .name6 {
   color: #019cdf;
   font-size: 20px;
@@ -99,10 +99,6 @@
 
 .nav-link:hover {
   color: red;
-}
-.history {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
 }
 
 .text1 {
